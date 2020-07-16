@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=2.1"
+djangorestframework = "~=3.10"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+python-decouple = "*"
+django-cors-headers = "*"
+django-dynamic-preferences = "*"
+django-extensions = "*"
+django-filter = "*"
+djangorestframework-queryfields = "*"
+whitenoise = "~=4.1"
+django-storages = "~=1.7"
+djangorestframework-simplejwt = "~=4.3"
+celery = "~=4.3"
+redis = "~=3.2"
+geopy = "*"
+django-better-admin-arrayfield = "*"
+django-extra-fields = "*"
+requests = "*"
+lorem = "*"
+django-fsm = "*"
+
+[requires]
+python_version = "3.6"
